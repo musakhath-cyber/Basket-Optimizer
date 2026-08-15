@@ -1,0 +1,3 @@
+pip install fastapi uvicorn google-genai pillow pydantic
+export GEMINI_API_KEY="your-api-key"
+uvicorn app.main:app --reload --port 8000
